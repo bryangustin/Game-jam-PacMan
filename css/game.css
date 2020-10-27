@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+
+}
+/*body{
+    background-image : url("../images/ocean.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}*/
+
+.grid{
+    margin: 100px auto;
+    display : flex;
+    flex-wrap: wrap;
+    width : 1287px;
+    height: 640spx;
+    background-image: url("../images/water2.jpg");
+    background-size:100%;
+    border-radius: 0px;
+    box-shadow:  -41px 41px 87px #bfbfbf, 
+                 41px -41px 87px #ffffff;
+
+}
+
+.grid div{
+    width: 40px;
+    height: 40px;
+}
+
+
+.plancton{
+    width: 13px !important;
+    height: 13px !important;
+    background-color: #3CFF16;/*flash green*/
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin:13.5px;
+}
+
+.wall{
+    background-image: url("../images/sand2.jpg");
+    background-size: 400%;
+}
+
+.recycle{
+    background-image: url("../images/recycle3.png"); 
+    background-size: 90%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 30px !important;
+width: 30px !important;
+margin: 5px;
+}
+
+/* fantoms */
+
+.mask{
+    background-color : blueviolet;
+    border: 0px;
+}
+
+.plasticBag{
+    background-color :grey;
+    border: 0px;
+}
+
+.tire{
+    background-color: black;
+    border: 0px;
+}
+
+.boat{
+    background-color: pink;
+    border: 0px;
+}
+
+
+
+
