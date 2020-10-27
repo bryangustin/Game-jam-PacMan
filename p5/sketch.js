@@ -4,6 +4,7 @@ lowermouth = 0.2 // lower mouth radian
 speed = 0.01 // speed of mouth opening & closing
 
 function setup() {
+    createCanvas(40, 40);
 }
 
 function draw() {
@@ -17,10 +18,10 @@ function draw() {
  // if the upper mouth radian reaches 2*PI, 
  // the direction reverses.
  // this affects the lower mouth as well.
- if (i >= 2 || i <= 1.8) {
+ if (uppermouth >= 2 || uppermouth <= 1.8) {
    speed = speed*(-1) 
  }
- arc(20, 20, 30, 30, (i+=speed)*PI, (x-=speed)*PI, PIE);
+ arc(20, 20, 30, 30, (uppermouth+=speed)*PI, (lowermouth-=speed)*PI, PIE);
  
  //Pacman eye
  ellipse(20, 12, 3, 3);
