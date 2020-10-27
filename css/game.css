@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+
+}
+body{
+    background-image : url("../images/ocean.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.grid{
+    margin: auto;
+    display : flex;
+    flex-wrap: wrap;
+    width : 1287px;
+    height: 646px;
+    border: solid black;
+    background-color: rgb(81, 194, 231);
+}
+
+.grid div{
+    width: 40px;
+    height: 40px;
+}
+
+
+.plancton{
+    background-color: rgb(89, 170, 89);
+    border: 12px solid rgb(81, 194, 231);
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.wall{
+    background-color: #E0CDA9 ;
+}
+
+.recycle{
+    background-image: url("../images/recycle.png"); 
+    background-size: cover;
+    box-sizing: border-box;
+    background-color: rgb(81, 194, 231);
+}
+
+
+
+
+
+
