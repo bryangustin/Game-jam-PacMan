@@ -4,21 +4,25 @@
     text-align: center;
 
 }
-body{
+/*body{
     background-image : url("../images/ocean.png");
     background-repeat: no-repeat;
     background-size: cover;
     
-}
+}*/
 
 .grid{
-    margin: auto;
+    margin: 100px auto;
     display : flex;
     flex-wrap: wrap;
     width : 1287px;
-    height: 646px;
-    border: solid black;
-    background-color: rgb(81, 194, 231);
+    height: 640spx;
+    background-image: url("../images/water2.jpg");
+    background-size:100%;
+    border-radius: 0px;
+    box-shadow:  -41px 41px 87px #bfbfbf, 
+                 41px -41px 87px #ffffff;
+
 }
 
 .grid div{
@@ -28,21 +32,27 @@ body{
 
 
 .plancton{
-    background-color: rgb(89, 170, 89);
-    border: 12px solid rgb(81, 194, 231);
+    width: 13px !important;
+    height: 13px !important;
+    background-color: #3CFF16;/*flash green*/
     box-sizing: border-box;
     border-radius: 50%;
+    margin:13.5px;
 }
 
 .wall{
-    background-color: #E0CDA9 ;
+    background-image: url("../images/sand2.jpg");
+    background-size: 400%;
 }
 
 .recycle{
-    background-image: url("../images/recycle.png"); 
-    background-size: cover;
+    background-image: url("../images/recycle3.png"); 
+    background-size: 90%;
+    background-repeat: no-repeat;
     box-sizing: border-box;
-    background-color: rgb(81, 194, 231);
+    height: 30px !important;
+width: 30px !important;
+margin: 5px;
 }
 
 
