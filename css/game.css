@@ -45,7 +45,27 @@ body{
     background-color: rgb(81, 194, 231);
 }
 
+/* fantoms */
 
+.mask{
+    background-color : blueviolet;
+    border: 0px;
+}
+
+.plasticBag{
+    background-color :grey;
+    border: 0px;
+}
+
+.tire{
+    background-color: black;
+    border: 0px;
+}
+
+.boat{
+    background-color: pink;
+    border: 0px;
+}
 
 
 
