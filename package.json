@@ -1,0 +1,19 @@
+{
+  "name": "js-game-jam-team--group-7-",
+  "version": "1.0.0",
+  "description": "Development of Pacman, using HTML, CSS/SASS and Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css scss/main.scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPalluel/js-game-jam-team--group-7-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPalluel/js-game-jam-team--group-7-/issues"
+  },
+  "homepage": "https://github.com/JPalluel/js-game-jam-team--group-7-#readme"
+}
