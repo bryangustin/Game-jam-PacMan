@@ -24,15 +24,15 @@ class Pacman {
 
     show(){
         //Pacman body
-          fill(255, 255, 0);
-          ellipse(this.x, this.y, 30, 30);
+        fill(255, 255, 0);
+        ellipse(this.x, this.y, 30, 30);
         //Pacman mouth
-          fill(81, 194, 231);
+        fill(81, 194, 231);
         // if the upper mouth radian reaches 2*PI, 
         // the direction reverses.
         // this affects the lower mouth as well.
         if (z >= 2 || z <= 1.8) {
-          speed = speed*(-1) 
+        speed = speed*(-1) 
         }
         arc(this.x, this.y, 30, 30, (z+=speed)*PI, (w-=speed)*PI, PIE);
         //Pacman eye
@@ -40,7 +40,7 @@ class Pacman {
         fill(81, 194, 231);
         //stroke(0,0,255)
         noStroke ();
-          }
+        }
     xSpeed = 2;
     move() {
         this.x = this.x + this.xSpeed;
