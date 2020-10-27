@@ -1,8 +1,3 @@
-
-
-
-
-
 document.addEventListener("DOMContentLoaded",function(){
     const grid = document.querySelector('.grid');
     const score = document.getElementById('score');
@@ -27,7 +22,8 @@ document.addEventListener("DOMContentLoaded",function(){
                     [0,1,3,0,0,0,1,1,0,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,3,1,0],
                     [0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,0,1,0],
                     [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-                ]
+                  ]
+
 
 // 0 = plancton;
 // 1 = wall;
@@ -96,29 +92,31 @@ fantoms.forEach(fantom =>{
     //squares[fantom.currentIndex].classList.add('ghost');
 
 })
-  
+
+})
+
 /* valerian */
-  
+
 let pacman;
 let z = 1.85 // upper mouth radian
 let w = 0.2 // lower mouth radian
 let speed = 0.03 // speed of mouth opening & closing
-  
+
 function setup() { 
-  createCanvas(400, 400);
-  pacman = new Pacman(20,20);
+    createCanvas(1000, 40);
+    pacman = new Pacman(20,20);
 } 
 
 function draw() { 
-      background(81, 194, 231);
-      pacman.show();
-      pacman.move();
-  }
+    background(81, 194, 231);
+    pacman.show();
+    pacman.move();
+}
 
 class Pacman {
-      constructor(x, y){
-      this.x = x;
-      this.y = y;
+    constructor(x, y){
+    this.x = x;
+    this.y = y;
     }
 
     show(){
@@ -143,9 +141,12 @@ class Pacman {
     xSpeed = 2;
     move() {
         this.x = this.x + this.xSpeed;
+        if (this.x==1000){
+            this.x=20;
+        }
     }
 }
 
-})
+
 
 
