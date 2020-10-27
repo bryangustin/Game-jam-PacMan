@@ -2,14 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     text-align: center;
-
 }
-/*body{
-    background-image : url("../images/ocean.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}*/
 
 .grid{
     margin: 100px auto;
@@ -29,7 +22,6 @@
     width: 40px;
     height: 40px;
 }
-
 
 .plancton{
     width: 13px !important;
@@ -51,30 +43,35 @@
     background-repeat: no-repeat;
     box-sizing: border-box;
     height: 30px !important;
-width: 30px !important;
-margin: 5px;
+    width: 30px !important;
+    margin: 5px;
 }
 
 /* fantoms */
 
 .mask{
-    background-color : blueviolet;
-    border: 0px;
+    background-image: url("../images/face-mask.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .plasticBag{
-    background-color :grey;
-    border: 0px;
+    background-image: url("../images/plastic_bag.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .tire{
-    background-color: black;
-    border: 0px;
+    background-image: url("../images/pneu2.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .boat{
-    background-color: pink;
-    border: 0px;
+    background-image: url("../images/bottle.png");
+    background-size: 100%;
+    background-position: 0% 56%;
+    transform: rotate(90deg);
 }
 
 
